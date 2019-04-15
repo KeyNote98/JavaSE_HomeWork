@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class DataSet {
     public static void main(String[] args) {
 
-        Path path = Paths.get("C:\\Users\\473060\\IdeaProjects\\ДЗ4\\src\\DataTask\\DataUSACart.csv");
+        Path path = Paths.get("C:\\Users\\473060\\IdeaProjects\\Новая папка\\JavaSE_HomeWork\\src\\DataTask\\DataUSACart.csv");
         try {
             ArrayList<String> line = new ArrayList<>(Files.readAllLines(path));
             ArrayList<String[]> data = new ArrayList<>();
